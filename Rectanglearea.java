@@ -1,6 +1,6 @@
 import java.util.Scanner; // we need to import this because only after this we can use Scanner constructer to take inputs.
 
-public class Rectangelarea {
+public class Rectanglearea {
 
      public static void main(String[] var0){
 
@@ -18,7 +18,7 @@ public class Rectangelarea {
 
         area = weidth*height;
         
-        System.out.println("Are of you rectangel: " + area + "cm\u00B2"); // the \u00B2 here is called unicode to print 2 in the raised power. Similarly we can write \u00B3 for 3 and so on. 
+        System.out.println("Area of you rectangle: " + area + "cm\u00B2"); // the \u00B2 here is called unicode to print 2 in the raised power. Similarly we can write \u00B3 for 3 and so on. 
         
         scanner.close();
 
