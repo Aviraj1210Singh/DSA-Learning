@@ -20,6 +20,16 @@ public class whilecode {
             System.out.print("Enter your name: ");
             name = scanner.nextLine();
         }
+
+        /*
+
+        just a demonstration of do-while loop.
+        but we do not need do-while here.
+         do{
+            System.out.print("Enter your name: ");
+            name = scanner.nextLine();
+        }while(name.isEmpty());
+        */
        
 
         System.out.printf("Hello %s\n", name);
