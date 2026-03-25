@@ -13,6 +13,7 @@ public class localandclassvariable {
     static void doSomething(){
         int x = 2; // LOCAL variable
         System.out.println(x);
+        // LOCAL variable > CLASS variable
     }
     
 }
