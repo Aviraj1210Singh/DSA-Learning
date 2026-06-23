@@ -4,9 +4,9 @@ public class VariableArgument {
                                         no need for overloaded methods java will pack the arguments into an array. 
                                         ... (ellipsis)
          */
-        
+
         System.out.println(add(9,5,8,9,111));
-        
+        System.out.println(average(9,5,8,9,111));
     }
     /* overloaded methods:- 
     static int add( int a, int b){ return a+b; }
@@ -22,7 +22,14 @@ public class VariableArgument {
         }
         return sum;
     }
+    static double average(double... numbers){
+        double sum = 0;
 
+        for(double number : numbers){
+            sum += number;
+        }
+        return sum / numbers.length;
+    }
 
    
 }
