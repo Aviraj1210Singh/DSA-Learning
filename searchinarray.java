@@ -21,6 +21,7 @@ public class searchinarray {
         System.out.print("Enter the fruit to search in the array: ");
         target2 = scanner.nextLine();
 
+        //checking for number
         for(int i = 0; i < number.length; i++){
             if(target1 == number[i]){
                 System.out.printf("Your number is at index: %d\n", i);
@@ -32,6 +33,7 @@ public class searchinarray {
             System.out.println("Number not found in array.");
         }
 
+        //checking for fruit
         for(int j = 0; j < fruits.length; j++){
             if(fruits[j].equals(target2)){
                 System.out.printf("Your fruit is at index: %d\n", j);
