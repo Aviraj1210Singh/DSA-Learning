@@ -10,6 +10,8 @@ public class twoDArrays {
 
         String[][] groceries = {fruits, vegetable, meats};
 
+        groceries[0][2] = "watermelon";
+
         for(String[] foods : groceries){
             for(String food : foods){
                 System.out.print(food + " ");
