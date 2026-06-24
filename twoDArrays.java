@@ -12,7 +12,9 @@ public class twoDArrays {
         String[][] groceries = {fruits, vegetable, meats};
         */
 
-        String[][] groceries = {{"apple", "orange", "banana"}, {"potato", "onion", "carrot"}, {"chicken", "pork", "egg", "fish"}};
+        String[][] groceries = {{"apple", "orange", "banana"}, 
+                                {"potato", "onion", "carrot"}, 
+                                {"chicken", "pork", "egg", "fish"}};
 
         groceries[0][2] = "watermelon";
 
