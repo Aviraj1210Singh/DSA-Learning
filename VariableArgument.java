@@ -25,6 +25,10 @@ public class VariableArgument {
     static double average(double... numbers){
         double sum = 0;
 
+        if(numbers.length == 0){
+            return 0;
+        }
+
         for(double number : numbers){
             sum += number;
         }
