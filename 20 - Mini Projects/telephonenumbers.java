@@ -1,4 +1,4 @@
-public class telephonenumbers {
+public class TelephoneNumbers {
 
     public static void main(String[] var0){
 
