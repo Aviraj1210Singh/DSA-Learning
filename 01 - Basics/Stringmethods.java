@@ -23,7 +23,7 @@ public class Stringmethods {
         if(name.equalsIgnoreCase("password")) 
             System.out.print("Your name cannot be password.");
 
-
+        System.out.println("Hello");
 
     }
     
