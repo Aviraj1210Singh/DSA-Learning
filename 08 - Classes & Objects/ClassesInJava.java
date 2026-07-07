@@ -24,7 +24,7 @@ public class ClassesInJava {
         car.brake();
 
 
-        // more than one variables
+        // more than one objects of same Class
         Car car1 = new Car();
         Car car2 = new Car();
 
