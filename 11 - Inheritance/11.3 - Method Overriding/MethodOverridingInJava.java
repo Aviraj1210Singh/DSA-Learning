@@ -15,6 +15,7 @@ public class MethodOverridingInJava {
         dog.move();
         cat.move();
         fish.move(); // Here we are using the overriden method
+        
 
 
     }
