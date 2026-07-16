@@ -18,10 +18,13 @@ public class MainInheritance {
                                   /      \
                                  /        \
                                Dog        Cat                (Grandchilds/ Child)
+
+        ***In inheritance whenever we create a child object then the first thing that is done is the calling of the
+        constructor of the highest class in the hierarchy(Grand Parent constructor -> Parent constructor -> Child contructor) 
         */
-        Dog dog = new Dog();
-        Cat cat = new Cat();
-        Plant plant = new Plant();
+        Dog dog = new Dog(); // constructors of Organism Class(Grand parent), Animal Class(Parent), & Dog class will automatically be called here, respectively. 
+        Cat cat = new Cat(); // constructors of Organism Class(Grand parent), Animal Class(Parent), & Cat class will automatically be called here, respectively. 
+        Plant plant = new Plant(); // constructors of Organism Class(Parent), & Plant Class will automatically be called here, respectively. 
  
         System.out.println(dog.isAlive);
         System.out.println(cat.isAlive);
