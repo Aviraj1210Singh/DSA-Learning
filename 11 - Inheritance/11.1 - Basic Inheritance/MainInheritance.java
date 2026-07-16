@@ -19,9 +19,11 @@ public class MainInheritance {
                                  /        \
                                Dog        Cat                (Grandchilds/ Child)
 
-        ***In inheritance whenever we create a child object then the first thing that is done is the calling of the
-        constructor of the highest class in the hierarchy(Grand Parent constructor -> Parent constructor -> Child contructor) 
-        */
+
+    * In inheritance, when a child object is created, Java automatically invokes constructors from the top of the inheritance hierarchy down to the child.
+    *Constructor execution order:
+        - Grandparent -> Parent -> Child
+    */
         Dog dog = new Dog(); // constructors of Organism Class(Grand parent), Animal Class(Parent), & Dog class will automatically be called here, respectively. 
         Cat cat = new Cat(); // constructors of Organism Class(Grand parent), Animal Class(Parent), & Cat class will automatically be called here, respectively. 
         Plant plant = new Plant(); // constructors of Organism Class(Parent), & Plant Class will automatically be called here, respectively. 
