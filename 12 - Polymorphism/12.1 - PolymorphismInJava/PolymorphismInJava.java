@@ -20,10 +20,17 @@ public class PolymorphismInJava {
         // For this we are going to crete an array of reference of parent class / interface
 
         Vehicle[] vehicles = {car, bike, boat}; // example of polymorphism, 
-        // here "vehicles[]" is a reference array variable of the superclass
+        // here "vehicles" is a reference array variable of the superclass
 
         for(Vehicle vehicle : vehicles){
             vehicle.go();
+        }
+
+        Color[] colors = {car, bike, boat}; // example of polymorphism, 
+        // here "colors" is a reference array variable of the implemented interface
+
+        for(Color color : colors){
+            color.myColor();
         }
         
     }
